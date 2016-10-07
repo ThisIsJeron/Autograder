@@ -1,0 +1,16 @@
+<form action="instructorUpload.php" method="post" enctype="multipart/form-data">
+<!-- MAX_FILE_SIZE must precede the file input field -->
+<input type="hidden" name="MAX_FILE_SIZE" value="30000" />
+<!-- Name of input element determines name in $_FILES array -->
+<input name="userfile" type="file" accept=".cpp"/>
+
+<br>Test Case 1:<input type="text" name = "TestCase1" />
+<br>Test Case 2:<input type="text" name = "TestCase2" />
+<br>Test Case 3:<input type="text" name = "TestCase3" />
+<!--
+<br><b>Instructor ID:</b><input type="text" name = "instructorID" />
+<br><b>Password:</b><input type="text" name = "instructorPass" /><br>
+-->
+<br><input type="submit" value="Send" />
+
+</form>

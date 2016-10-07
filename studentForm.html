@@ -1,0 +1,25 @@
+<html>
+<body>
+<center>
+<h1>Welcome to the CSS1Sp16 Final Exam Page</h1>
+<pre>
+This web page will automatically test your program.
+Your program output must match the sample test run EXACTLY, in order for you to pass.
+Please also upload your <b>finalExam.cpp</b> to our class web page at alexstoykov.com
+</pre>
+<form action="studentUpload.php" method="post" enctype="multipart/form-data">
+
+Please enter your <b>Student ID: </b>G00<input type="text" name = "studentID" /><br><br>
+<!--<br><b>Password:</b><input type="text" name = "studentPass" /><br><br>-->
+<!-- MAX_FILE_SIZE must precede the file input field -->
+<input type="hidden" name="MAX_FILE_SIZE" value="30000" />
+<!-- Name of input element determines name in $_FILES array -->
+    <!-- OS limited .cpp file only (if user is persistent enough they could change to all file types... -->
+Please upload your <b>final.cpp</b> file <br>&emsp;&emsp;&emsp;&emsp;&emsp;<input name="userfile" type="file" accept=".cpp" />
+<br>
+<br><input type="submit" value="Submit Your Final Exam" />
+<br><br>(^^^ Only a <font color="red">valid Student ID</font> can submit!!)
+</form>
+</center>
+</body>
+</html>

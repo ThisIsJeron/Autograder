@@ -1,0 +1,19 @@
+<table border="1" width = "50%">
+        <tr >
+          <th>character</th>
+          <th>meaning</th>
+        </tr>
+        <tr >
+          <td align="center"><b>!</b></td>
+          <td>Indicates that this line is part of a group of one or more lines that needs to change. There is a corresponding group of lines prefixed with "<b>!</b>" in the other file's context as well.</td>
+        </tr>
+        <tr >
+          <td align="center"><b>+</b></td>
+          <td>Indicates a line in the answer file that needs to be added to your file.</td>
+        </tr>
+        <tr >
+          <td align="center"><b>-</b></td>
+          <td>Indicates a line in your file that needs to be deleted.</td>
+        </tr>
+</table>
+

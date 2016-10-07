@@ -1,0 +1,2 @@
+[22-May-2016 12:11:05 America/Denver] PHP Warning:  file_get_contents(2.txt): failed to open stream: No such file or directory in /home2/stoykovu/public_html/phpStuff/functionst/functions.php on line 24
+[22-May-2016 12:11:05 America/Denver] PHP Warning:  file_get_contents(1.txt): failed to open stream: No such file or directory in /home2/stoykovu/public_html/phpStuff/functionst/functions.php on line 12
