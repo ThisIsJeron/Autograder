@@ -80,7 +80,8 @@ exec($command3b); // run command on server
 echo "<b>testRunCase3Answer.txt:</b><br>";
 echo file_get_contents('testRunCase3Answer.txt')."<br>";
 
-$commandGetLines = "grep -n 'Answer Goes Here' $theFileName |cut -f1 -d: > linesbefore.txt";
+//grep for lines that have @@@ and make into lines.txt
+$commandGetLines = "grep -n '@@@' $theFileName |cut -f1 -d: > lines.txt";
 exec($commandGetLines);
 echo "Lines for blanks recorded!<br>";
 exec ("rm original.cpp answer.exe");

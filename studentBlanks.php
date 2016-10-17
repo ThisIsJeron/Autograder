@@ -7,6 +7,7 @@
  */
 
 $lines = file('linesbefore.txt');
+//for loop to add each line in file into array
 foreach($lines as $line)
 {
     $lineNumbersArray[] = $line;
@@ -17,7 +18,9 @@ echo "<h1>Final:</h1>";
 $file="answer.cpp";
 $lineCount = 0;
 $handle = fopen($file, "r");
-echo "<form action=\"studentBlanksGrade.php\" method=\"post\">";
+echo "<form action=\"studentBlanksGrade.php\" method=\"get\">";
+
+
 while(!feof($handle)){
     if (in_array($lineCount, $lineNumbersArray)) {
         $line = fgets($handle);
