@@ -6,7 +6,7 @@
  * Time: 5:36 PM
  */
 
-$lines = file('linesbefore.txt');
+//$lines = file('linesbefore.txt');
 foreach($lines as $line)
 {
     'inputs'.$line = $_GET['inputs'.$line];
