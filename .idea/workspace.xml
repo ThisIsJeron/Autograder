@@ -99,6 +99,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="ThisIsJeron &lt;jeron@protonmail.ch&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -262,7 +267,7 @@
       <workItem from="1480311879274" duration="1751000" />
       <workItem from="1480483196825" duration="5426000" />
       <workItem from="1480572883733" duration="156000" />
-      <workItem from="1480573404617" duration="76000" />
+      <workItem from="1480573404617" duration="154000" />
     </task>
     <task id="LOCAL-00001" summary="migration &amp; setup on mac">
       <created>1480484321036</created>
@@ -292,11 +297,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480527880887</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="testing commit from proper email">
+      <created>1480573499797</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1480573499797</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49294000" />
+    <option name="totallyTimeSpent" value="49372000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -341,7 +353,8 @@
     <MESSAGE value="migration &amp; setup on mac" />
     <MESSAGE value="adding uniquecounter for multiple inputs fix" />
     <MESSAGE value="adding inputs named with uniqID" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding inputs named with uniqID" />
+    <MESSAGE value="testing commit from proper email" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing commit from proper email" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
