@@ -1,12 +1,13 @@
 # Autograder
 A little project for my CSIS 45 professor
 
-#Install
+# Install
+
 Just to test it out locally, use XAMPP, put files into XAMPP/htdocs
 
 You can also use PHPStorm and after installing XAMPP, use the PHP provided in there (on Mac, it's XAMPP/bin/PHP-x.x.xx)
 
-#Usage
+# Usage
 
 Instructions for upload finals:
     
