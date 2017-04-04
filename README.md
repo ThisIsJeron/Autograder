@@ -9,7 +9,7 @@ You can also use PHPStorm and after installing XAMPP, use the PHP provided in th
 
 # Usage
 
-Instructions for upload finals:
+Instructions for finals by upload:
     
     Instructor Instructions:
      1. Upload file at localhost/instructorForm.html, fill in test answers
@@ -19,7 +19,7 @@ Instructions for upload finals:
      1. Go to localhost/studentForm.html, put in your G00 number, and upload your final exam .cpp file
      2. It will tell you your score on the final 
 
-Instructions for fill in the blank finals:
+Instructions for finals by fill in the blank:
 
     Instructor Instructions:
      1. Upload file at localhost/instructorForm.html, fill in test answers
