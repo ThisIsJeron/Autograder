@@ -2,7 +2,7 @@
 $studentID = $_POST['studentID'];
 $studentPass = isset($_POST['studentPass']) ? $_POST['studentPass'] : ''; //http://stackoverflow.com/q/4261133
 $studentIDs = file_get_contents('IDs.cgi');
-$studentsPassed = file_get_contents("TheStudentsThatPassedTheCSS1Sp16FinalExam.cgi");
+$studentsPassed = file_get_contents("FinishedIDs.cgi");
 
 // if id was not found in the file with IDs
 // go back to form that tells "invalid ID"
@@ -11,7 +11,7 @@ if ( foundID("IDs.cgi",$studentID) == "false")
 
 // if the student has already taken the test
 // go back to form that tells "already submitted"
-else if (foundID("TheStudentsThatPassedTheCSS1Sp16FinalExam.cgi",$studentID) == "true")
+else if (foundID("FinishedIDs.cgi",$studentID) == "true")
      header('Location: studentAlreadySubmitted.html'); 
 
 else
@@ -45,7 +45,7 @@ else
                     function goBack() {
                         window.history.back();
                     }
-                </script>"; //WOAH YOU CAN PUT HTML IN PHP AND JUST ECHO IT?
+                </script>";
     }
 	// compile the student.exe file, and create StudentTestOutputFile1.txt
 	compileAndRun();
@@ -76,12 +76,12 @@ function recordDifferences($studentID)
 		{
 		   // echo "studentIDs[i]=".$studentIDs[$i]."<br>";
 		   //if ($studentID."\n" == $studentIDs[$i]) // ?? whhy didn't this work??? it was missing ."\n"
-		   // if (foundID("TheStudentsThatPassedTheCSS1Sp16FinalExam.cgi",$studentID) == "false")
+		   // if (foundID("FinishedIDs.cgi",$studentID) == "false")
 		    if (strpos($studentIDs[$i], $studentID) )
 		    {
 		      //"SOMEHOW IT GOT HERE???<br>"; 
 		      echo "Congratulations, your program works 100% and your test has been recorded<br>";  
-		      $myfile = fopen("TheStudentsThatPassedTheCSS1Sp16FinalExam.cgi", "a");
+		      $myfile = fopen("FinishedIDs.cgi", "a");
 		      $txt = "$studentIDs[$i]";
 		      fwrite($myfile, $txt);
 		      fclose($myfile);

@@ -126,7 +126,7 @@ function generateStudentDifferencesFilename($studID)
 }
 
 // call the functions
-echo "student id is in IDs.cgi: ".idIsInFile("TheStudentsThatPassedTheCSS1Sp16FinalExam.cgi", "230352");
+echo "student id is in IDs.cgi: ".idIsInFile("FinishedIDs.cgi", "230352");
 compareDifferences("answer.txt","230352testRun.txt","230352differences.txt");
 showStudentProgram("230352testRun.txt");
 showExpectedProgram("answer.txt");
