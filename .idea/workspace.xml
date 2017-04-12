@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="fa576416-847e-45b6-8b8c-9dde63e0e26a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FinishedIDs.cgi" afterPath="$PROJECT_DIR$/FinishedIDs.cgi" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCase1.txt" afterPath="$PROJECT_DIR$/TestCase1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCase2.txt" afterPath="$PROJECT_DIR$/TestCase2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCase3.txt" afterPath="$PROJECT_DIR$/TestCase3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answer.cpp" afterPath="$PROJECT_DIR$/answer.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lines.txt" afterPath="$PROJECT_DIR$/lines.txt" />
     </list>
     <ignored path="functions.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,16 +48,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IDs.cgi" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IDs.cgi">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="studentUpload.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/studentUpload.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -62,6 +58,18 @@
                 <marker date="1491262974000" expanded="true" signature="1724:1794" ph="{...}" />
                 <marker date="1491262974000" expanded="true" signature="4833:4837" ph="&lt;" />
                 <marker date="1491262974000" expanded="true" signature="4916:4920" ph="&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="studentBlanks.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studentBlanks.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+              <folding>
+                <element signature="e#6#86#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,27 +105,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="studentBlanksGrade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/studentBlanksGrade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="e#6#86#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="315">
-                <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+              <first_editor relative-caret-position="480">
+                <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="studentBlanksGrade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studentBlanksGrade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <element signature="e#6#86#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,6 +135,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="instructorUpload.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/instructorUpload.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -145,6 +163,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>grep</find>
+      <find>lines.txt</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,9 +193,9 @@
         <option value="$PROJECT_DIR$/instructorUpload.php" />
         <option value="$PROJECT_DIR$/TheStudentsThatPassedTheCSS1Sp16FinalExam.cgi" />
         <option value="$PROJECT_DIR$/studentUpload.php" />
-        <option value="$PROJECT_DIR$/FinishedIDs.cgi" />
         <option value="$PROJECT_DIR$/studentBlanks.html" />
         <option value="$PROJECT_DIR$/instructorForm.html" />
+        <option value="$PROJECT_DIR$/FinishedIDs.cgi" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -189,9 +208,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="803" />
+    <option name="x" value="-2560" />
+    <option name="y" value="-517" />
+    <option name="width" value="2560" />
+    <option name="height" value="1417" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -209,7 +229,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -224,6 +243,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -389,7 +409,10 @@
       <workItem from="1491189248437" duration="339000" />
       <workItem from="1491189596607" duration="5433000" />
       <workItem from="1491262945034" duration="3457000" />
-      <workItem from="1491274240113" duration="68000" />
+      <workItem from="1491274240113" duration="505000" />
+      <workItem from="1491705704986" duration="17000" />
+      <workItem from="1491705738657" duration="433000" />
+      <workItem from="1491964641587" duration="1560000" />
     </task>
     <task id="LOCAL-00001" summary="migration &amp; setup on mac">
       <created>1480484321036</created>
@@ -461,17 +484,24 @@
       <option name="project" value="LOCAL" />
       <updated>1491274263250</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="typo">
+      <created>1491274310315</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1491274310315</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65304000" />
+    <option name="totallyTimeSpent" value="67751000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="803" extended-state="6" />
+    <frame x="-2560" y="-517" width="2560" height="1417" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11388889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18945312" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15835312" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -781,26 +811,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/instructorUpload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/studentForm.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IDs.cgi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -818,36 +832,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FinishedIDs.cgi">
+    <entry file="file://$PROJECT_DIR$/IDs.cgi">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instructorForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instructorUpload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/studentBlanks.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="81" lean-forward="false" selection-start-line="39" selection-start-column="81" selection-end-line="39" selection-end-column="81" />
-          <folding>
-            <element signature="e#6#86#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studentTestOutputFile2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studentBlanksGrade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="646">
+          <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
           </folding>
@@ -875,10 +887,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/instructorForm.html">
+    <entry file="file://$PROJECT_DIR$/FinishedIDs.cgi">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentTestOutputFile2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -891,11 +911,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/studentBlanksGrade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <first_editor relative-caret-position="480">
+            <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
             <folding />
           </first_editor>
           <second_editor />

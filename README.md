@@ -12,7 +12,7 @@ You can also use PHPStorm and after installing XAMPP, use the PHP provided in th
 Instructions for finals by upload:
     
     Instructor Instructions:
-     1. Upload file at localhost/instructorForm.html, fill in test answers
+     1. Upload file at localhost/instructorForm.html, fill in prompts for test cases
      2. Go to IDs.cgi to change valid IDs
      
     Student Instructions: 
@@ -29,4 +29,9 @@ Instructions for finals by fill in the blank:
      1. Go to localhost/studentBlanks.html, put in your G00 number and click Begin Exam
      2. Good luck on your test :)
     
-          
+# Todo
+Get working
+
+Fix UI
+
+Future Docker implementation 
