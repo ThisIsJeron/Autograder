@@ -30,7 +30,9 @@ Instructions for finals by fill in the blank:
      2. Good luck on your test :)
     
 # Todo
-Get working
+Get both options working
+* fix grading error in upload mode
+* figure how to pass multiple forms in studentBlanks.php
 
 Fix UI
 
